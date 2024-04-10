@@ -2,7 +2,7 @@
 config = {
     'databases': {
         'sqlite': {
-            'db_path': 'data.db',
+            'db_path': 'db.sqlite3',
             'enabled': True
         },
         'postgresql': {
@@ -10,7 +10,7 @@ config = {
             'dbname': 'your_dbname',
             'user': 'your_username',
             'password': 'your_password',
-            'enabled': True
+            'enabled': False
         }
     }
 }
